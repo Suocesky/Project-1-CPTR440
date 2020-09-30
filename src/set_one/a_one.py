@@ -15,7 +15,8 @@ def hex_to_base64(input):
 
     #Convert Hex to bytes as it says in directions
     hex_string_in_bytes = bytes.fromhex(input)
-    print("Easter Egg after converting hex to bytes: ", hex_string_in_bytes)
+    
+    print("Easter Egg: Result of converting hex to bytes: ", hex_string_in_bytes)
 
     #Convert the Hex Byte String to a base64 byte string
     base64_byte_string = base64.b64encode(hex_string_in_bytes)

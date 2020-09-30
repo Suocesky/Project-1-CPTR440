@@ -17,5 +17,5 @@ def fixedXOR(input1, input2):
     result_byte_array = bytearray(len(hex_string1))
     for i in range(len(result_byte_array)):
         result_byte_array[i] = hex_string1[i] ^ hex_string2[i]
-    print("Easter Egg: XORed byte array of two hex strings is ", result_byte_array)
+    print("Easter Egg: XORed bytes of two hex strings are ", bytes(result_byte_array))
     return result_byte_array.hex()

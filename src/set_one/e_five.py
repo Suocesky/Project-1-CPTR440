@@ -13,4 +13,10 @@
 
 def solution(input):
     #Solution
+    # string_in_bytes = str.encode(input)
+    # key = str.encode("ICE")
+
+    # result_byte_array = bytearray(len(hex_string1))
+    # for i in range(len(result_byte_array)):
+    #     result_byte_array[i] = hex_string1[i] ^ hex_string2[i]
     return input

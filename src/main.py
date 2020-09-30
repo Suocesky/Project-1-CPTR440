@@ -19,7 +19,7 @@ def problemSetOne():
     print("\nRunning Test 4")
     print("Test 4 is an input file problem")
     print("Please read comments in main.py")
-    #tests.testQuestion4()
+    # tests.testQuestion4()
     print("\nRunning Test 5")
     tests.testQuestion5()
     print("\nRunning Test 6")
