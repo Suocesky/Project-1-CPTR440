@@ -3,10 +3,12 @@ import tests
 def main():
     #If you don't want to see every test, comment out the ones you don't wnat to see
     problemSetOne()
-    problemSetTwo()
-    problemSetThree()
+    # problemSetTwo()
+    # problemSetThree()
 
 def problemSetOne():
+    #Becareful uncommenting all problems that have a text file as input at once.
+    #The output is so large on some it made my computer freeze.
     print("\nRunning Problem Set One")
     print("\nRunning Test 1")
     tests.testQuestion1()
@@ -15,15 +17,23 @@ def problemSetOne():
     print("\nRunning Test 3")
     tests.testQuestion3()
     print("\nRunning Test 4")
-    tests.testQuestion4()
+    print("Test 4 is an input file problem")
+    print("Please read comments in main.py")
+    #tests.testQuestion4()
     print("\nRunning Test 5")
     tests.testQuestion5()
     print("\nRunning Test 6")
-    tests.testQuestion6()
+    print("Test 6 is an input file problem")
+    print("Please read comments in main.py")
+    #tests.testQuestion6()
     print("\nRunning Test 7")
-    tests.testQuestion7()
+    print("Test 7 is an input file problem")
+    print("Please read comments in main.py")
+    #tests.testQuestion7()
     print("\nRunning Test 8")
-    tests.testQuestion8()
+    print("Test 8 is an input file problem")
+    print("Please read comments in main.py")
+    #tests.testQuestion8()
 
 def problemSetTwo():
     print("\nRunning Problem Set Two")
