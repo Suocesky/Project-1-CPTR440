@@ -7,7 +7,7 @@ This project is currently using Python 3.8.5
 
 To Run tests navigate to src
 
-Once in the desired direcory run python main.py. It should run all of the tests.
+Once in the desired direcory run python main.py or python3 main.py depending on how your enviroment is configureds. It should run all of the tests.
 
 Each Question has its own module and the name of the module directs you to the question. 
 You should also find the question and neccesary resources in the module.
