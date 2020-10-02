@@ -8,4 +8,5 @@
 def solution(input):
     #Solution
     #The text file is called four.txt. The test file is reading it and putting it as input to this string so you shouldn't need to worry about it.
-    return input
+    test = len(input) / 20
+    return test

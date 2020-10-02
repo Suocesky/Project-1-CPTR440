@@ -13,7 +13,6 @@
 
 def solution(input):
     #Solution
-    #Caleb is Working on this problem
     # string_in_bytes = str.encode(input)
     # key = str.encode("ICE")
 

@@ -10,12 +10,12 @@ import base64
 
 def fixedXOR(input1, input2):
     #Solution:
-    hex_string1 = bytes.fromhex(input1)
-    hex_string2 = bytes.fromhex(input2)
+    hex_string_in_bytes1 = bytes.fromhex(input1)
+    hex_string_in_bytes2 = bytes.fromhex(input2)
 
     #XOR byte strings and place in result_byte_array, the convert back to hex
-    result_byte_array = bytearray(len(hex_string1))
+    result_byte_array = bytearray(len(hex_string_in_bytes1))
     for i in range(len(result_byte_array)):
-        result_byte_array[i] = hex_string1[i] ^ hex_string2[i]
+        result_byte_array[i] = hex_string_in_bytes1[i] ^ hex_string_in_bytes2[i]
     print("Easter Egg: XORed bytes of two hex strings are ", bytes(result_byte_array))
     return result_byte_array.hex()

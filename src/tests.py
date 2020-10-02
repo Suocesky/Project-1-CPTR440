@@ -30,7 +30,7 @@ def testQuestion2():
         print("Actual Answer: ", answer)
 
 def testQuestion3():
-    input = "1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736"
+    input = '1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736'
     functionResult = c_three.decode(input)
     print("Question 3 Printed: ", functionResult)
 
