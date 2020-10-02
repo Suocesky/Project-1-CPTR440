@@ -43,26 +43,15 @@ def testQuestion4():
 
 def testQuestion5():
     #First part of question 5
-    firstString = "Burning 'em, if you ain't quick and nimble"
+    firstString = "Burning 'em, if you ain't quick and nimble\nI go crazy when I hear a cymbal"
     firstResult = e_five.solution(firstString)
-    firstAnswer = "0b3637272a2b2e63622c2e69692a23693a2a3c6324202d623d63343c2a26226324272765272"
+    firstAnswer = "0b3637272a2b2e63622c2e69692a23693a2a3c6324202d623d63343c2a26226324272765272a282b2f20430a652e2c652a3124333a653e2b2027630c692b20283165286326302e27282f"
     if firstResult == firstAnswer:
         print("Part 1 of Question 5 Passed")
     else:
         print("Qustion 5 Part 1 Failed")
-        print("Your Result: ", firstResult)
+        print("Your Result:   ", firstResult)
         print("Actual Answer: ", firstAnswer)
-
-    #Second part of question 5
-    secondString = "I go crazy when I hear a cymbal"
-    secondResult = e_five.solution(secondString)
-    secondAnswer = "a282b2f20430a652e2c652a3124333a653e2b2027630c692b20283165286326302e27282f"
-    if secondResult == secondAnswer:
-        print("Part 2 of Question 5 Passed")
-    else:
-        print("Qustion 5 Part 2 Failed")
-        print("Your Result: ", secondResult)
-        print("Actual Answer: ", secondAnswer)
 
 def testQuestion6():
     input = ''

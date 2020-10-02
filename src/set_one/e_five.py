@@ -13,10 +13,12 @@
 
 def solution(input):
     #Solution
-    # string_in_bytes = str.encode(input)
-    # key = str.encode("ICE")
+    string_in_bytes = str.encode(input, 'ascii')
+    key = str.encode("ICE")
+    current_message = bytes()
+    length = len(string_in_bytes)
 
-    # result_byte_array = bytearray(len(hex_string1))
-    # for i in range(len(result_byte_array)):
-    #     result_byte_array[i] = hex_string1[i] ^ hex_string2[i]
-    return input
+    for position in range(0, length):
+        current_message += bytes([string_in_bytes[position] ^ key[position % 3]])            
+    
+    return current_message.hex()
