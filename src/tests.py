@@ -9,12 +9,13 @@ def testQuestion1():
     input = '49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d'
     functionResult = a_one.hex_to_base64(input)
     answer = "SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t"
+    print("Your Result:   ", functionResult)
+    print("Actual Answer: ", answer)
     if functionResult == answer:
         print("Question 1 Passed")
     else:
         print("Qustion 1 Failed")
-        print("Your Result: ", functionResult)
-        print("Actual Answer: ", answer)
+    
     
 
 def testQuestion2():
@@ -22,12 +23,13 @@ def testQuestion2():
     input2 = "686974207468652062756c6c277320657965"
     functionResult = b_two.fixedXOR(input1, input2)
     answer = "746865206b696420646f6e277420706c6179"
+    print("Your Result:   ", functionResult)
+    print("Actual Answer: ", answer)
     if functionResult == answer:
         print("Question 2 Passed")
     else:
         print("Qustion 2 Failed")
-        print("Your Result: ", functionResult)
-        print("Actual Answer: ", answer)
+    
 
 def testQuestion3():
     input = '1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736'
@@ -46,12 +48,13 @@ def testQuestion5():
     firstString = "Burning 'em, if you ain't quick and nimble\nI go crazy when I hear a cymbal"
     firstResult = e_five.solution(firstString)
     firstAnswer = "0b3637272a2b2e63622c2e69692a23693a2a3c6324202d623d63343c2a26226324272765272a282b2f20430a652e2c652a3124333a653e2b2027630c692b20283165286326302e27282f"
+    print("Your Result:   ", firstResult)
+    print("Actual Answer: ", firstAnswer)
     if firstResult == firstAnswer:
         print("Part 1 of Question 5 Passed")
     else:
         print("Qustion 5 Part 1 Failed")
-        print("Your Result:   ", firstResult)
-        print("Actual Answer: ", firstAnswer)
+    
 
 def testQuestion6():
     input = ''

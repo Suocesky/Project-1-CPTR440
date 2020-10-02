@@ -27,15 +27,13 @@ def solution(input):
         'y': 2.11, 'z': 0.07, ' ': 10
     }
 
-    #Loop through all decimal 256 ascii characters
+    
     start = 0
-    end = 30
-    length = len(hex_string_in_bytes)
-    while end < length-1:
-
+    for end in range (30, len(hex_string_in_bytes)):
+        #Loop through all decimal 256 ascii charactersv
         for character in range(256):
             current_message = bytes()
-            #XOR the decimal ascii character representation with every byte in hex_string_in_bytes
+            #XOR the decimal ascii character representation with every byte in range
             for byte in range(start, end):
                 current_message += bytes([hex_string_in_bytes[byte] ^ character])
 
@@ -49,7 +47,6 @@ def solution(input):
             if current_score > high_score:
                 high_score = current_score
                 high_score_message = current_message
-        end = end + 1
         start = start +1           
 
     return high_score_message.decode('ascii')

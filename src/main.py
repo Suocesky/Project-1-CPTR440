@@ -16,9 +16,9 @@ def problemSetOne():
     tests.testQuestion2()
     print("\nRunning Test 3")
     tests.testQuestion3()
-    #print("\nRunning Test 4") commented out to not run every time on future tests
-    print("\nTest 4 takes about 20 seconds")
-    #tests.testQuestion4()
+    print("\nRunning Test 4")
+    print("Be Patient: Test 4 takes about 1 minute on my computer.")
+    tests.testQuestion4()
     print("\nRunning Test 5")
     tests.testQuestion5()
     print("\nRunning Test 6")
