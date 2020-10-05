@@ -33,7 +33,20 @@
 # No, that's not a mistake.
 # We get more tech support questions for this challenge than any of the other ones. 
 # We promise, there aren't any blatant errors in this text. In particular: the "wokka wokka!!!" edit distance really is 37.
-
 def solution(input):
     #Solution
+
+    # string1 = 'this is a test'
+    # string2 = 'wokka wokka!!!'
+
+    # bit_string1 = ''.join(format(ord(i), 'b') for i in string1) 
+    # bit_string2 = ''.join(format(ord(i), 'b') for i in string2) 
+    # print(bit_string1)
+    # print(bit_string2)
+
+    # number = 0
+    # for bit in range(0, len(bit_string1)):
+    #     if bit < len(bit_string1) and bit_string1[bit] != bit_string2[bit]:
+    #         number = number + 1
+    
     return input

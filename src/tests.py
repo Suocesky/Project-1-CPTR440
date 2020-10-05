@@ -61,21 +61,21 @@ def testQuestion6():
     with open('set_one/f_six.txt', 'r') as file:
         input = file.read().replace('\n', '')
     functionResult = f_six.solution(input)
-    print("Question 6 Returns: ", functionResult)
+    print("Question not finished.")
 
 def testQuestion7():
     input = ''
     with open('set_one/g_seven.txt', 'r') as file:
         input = file.read().replace('\n', '')
     functionResult = g_seven.solution(input)
-    print("Question 7 Returns: ", functionResult)
+    print("Question not finished.")
 
 def testQuestion8():
     input = ''
     with open('set_one/h_eight.txt', 'r') as file:
         input = file.read().replace('\n', '')
     functionResult = h_eight.solution(input)
-    print("Question 8 Returns: ", functionResult)
+    print("Question not finished.")
 
 #Problem Set 2 - Block and Crypto
 
